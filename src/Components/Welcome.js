@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Buttons";
 import { Link } from "react-router-dom";
 
 
@@ -11,7 +10,7 @@ const Welcome = ({ player }) => {
          <h1>Welcome, {player}!</h1>
          <p>This is a language quiz game to test  your Swedish skills!</p>
          <p>Please choose the correct answer from 3-4 multiple choices.</p>
-         <Button><Link to="/levelpg">Choose the level</Link></Button>
+         <button><Link to="/levelpg">Choose the level</Link></button>
       </div>
     
    );

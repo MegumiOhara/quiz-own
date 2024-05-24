@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "./Buttons";
+
 
 
 function Levels() {
@@ -9,11 +9,11 @@ function Levels() {
         <div className="container">
         <div className="levels">
             <h1>Choose the level</h1>
-                <Button><Link to="/quiz"> Level 1</Link></Button>
-                <Button><Link to="/level2">Level 2</Link></Button>
+                <button><Link to="/quiz"> Level 1</Link></button>
+                <button><Link to="/level2">Level 2</Link></button>
             </div>
             <div>
-                <Button><Link to="/welcome">Exit to Welcome Page</Link></Button>
+                <button><Link to="/welcome">Exit to Welcome Page</Link></button>
             </div>
         </div>
     )

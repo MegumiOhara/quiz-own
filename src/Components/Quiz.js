@@ -1,6 +1,5 @@
 //Quiz questions - multiple choice 
 import React, { useState } from 'react';
-import Button from './Buttons';
 import { Link } from 'react-router-dom';
 
 function Quiz(){
@@ -130,7 +129,7 @@ function Quiz(){
                 <>
 				<div className='score-section'>You scored {score} out of {questions.length}
                 
-                <Button><Link to="/levelpg">Go back</Link></Button></div>
+                <button><Link to="/levelpg">Go back</Link></button></div>
                 </>
                 
 			) : (

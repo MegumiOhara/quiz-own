@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Buttons";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -32,7 +31,7 @@ const RegisterForm = ({ onRegister }) =>{
                     value={player}
                     onChange={(e) => setPlayer(e.target.value)}/>
                 </label>
-                <Button type="submit">Start</Button>
+                <button type="submit">Start</button>
             </form>
 
         </div>
