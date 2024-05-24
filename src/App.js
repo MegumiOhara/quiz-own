@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Quiz from './Components/Quiz';
+import Welcome from './Components/Welcome';
+import RegisterForm from './Components/Newreg';
 
 function App() {
+  const [registeredName, setRegisteredName] = useState('');
+  
+  const handleRegister = (player) => {
+    setRegisteredName(player);
+  };
+
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
     </div>
   );
 }
