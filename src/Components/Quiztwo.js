@@ -27,7 +27,7 @@ function QuizTwo(){
         <div className='app'>
 			{showScore ? (
                 <>
-                <ImageOne className="animate__animated animate__tada" />
+                <ImageOne className="animate__animated animate__tada animate__repeat-3	3" />
 				<div className='score-section'>You scored {score} out of {questionsTwo.length}
                 
                 <button><Link to="/levelpg">Go back</Link></button></div>

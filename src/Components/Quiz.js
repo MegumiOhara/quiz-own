@@ -37,7 +37,7 @@ function Quiz(){
 			{/* change the hard coded messages into dynamic (const variables) once logic and function added */}
 			{showScore ? (
                 <>
-                <ImageOne className="animate__animated animate__tada" />
+                <ImageOne className="animate__animated animate__tada animate__repeat-3	3" />
 				<div className='score-section'>You scored {score} out of {questions.length}
                 
                 <button><Link to="/levelpg">Go back</Link></button></div>
