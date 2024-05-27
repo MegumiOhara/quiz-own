@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { questions } from './quesions';
+import { ReactComponent as ImageOne } from '../images/thumbs-up-solid.svg';
 
 function Quiz(){
    
@@ -36,6 +37,7 @@ function Quiz(){
 			{/* change the hard coded messages into dynamic (const variables) once logic and function added */}
 			{showScore ? (
                 <>
+                <ImageOne className="animate__animated animate__tada" />
 				<div className='score-section'>You scored {score} out of {questions.length}
                 
                 <button><Link to="/levelpg">Go back</Link></button></div>
