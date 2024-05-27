@@ -7,9 +7,9 @@ const Welcome = ({ player }) => {
    return (
       
       <div className="container">
-         <h1>Welcome, {player}!</h1>
-         <p>This is a language quiz game to test  your Swedish skills!</p>
-         <p>Please choose the correct answer from 3-4 multiple choices.</p>
+         <h1 class="animate__animated animate__heartBeat animate__repeat-3	3">Welcome, {player}!</h1>
+         <p>This is a Quiz to test  your Swedish skills!</p>
+         <p>Choose the correct answers from 4 multiple choice.</p>
          <button><Link to="/levelpg">Choose the level</Link></button>
       </div>
     
@@ -18,7 +18,3 @@ const Welcome = ({ player }) => {
 
 export default Welcome;
 
-/* steps tip from Helena to Ayako */
-/*1. create the UI that means just way it supposed to look so css (styling) and no data. hard code data like name etc*/
-/*2. wait for the login to be finished you cant grab the name without login working */
-/*3. wait for the game page to be done and make sure you have routing set up so that you can create a link to that page*/
