@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     
   <nav className="nav">
-       <span><Link to="/">Go Back to the Start</Link></span>  
+       <div className='nav-title'><Link to="/" className='nav-title'>Go Back to the Start</Link></div>  
     </nav>
   ); 
 }

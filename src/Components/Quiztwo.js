@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { questionsTwo } from './questionT';
+import { ReactComponent as ImageOne } from '../images/thumbs-up-solid.svg';
 
 function QuizTwo(){
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -26,6 +27,7 @@ function QuizTwo(){
         <div className='app'>
 			{showScore ? (
                 <>
+                <ImageOne className="animate__animated animate__tada" />
 				<div className='score-section'>You scored {score} out of {questionsTwo.length}
                 
                 <button><Link to="/levelpg">Go back</Link></button></div>
