@@ -108,7 +108,7 @@ code {
 .quiz-btn:active{
   background-color: rgb(43, 84, 180);
 }
-.button {
+button {
   width: 250px;
   height: 46px;
   padding: 0 16px;
